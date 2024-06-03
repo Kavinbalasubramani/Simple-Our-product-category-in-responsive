@@ -1,0 +1,1100 @@
+	body
+		{
+			font-family: sans-serif, 'open sans';
+			background: url(badyimg.png);
+			z-index: -1;
+			position: absolute;
+		}
+		*
+		{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-decoration: none;
+			box-sizing: border-box;
+		}
+		html
+		{
+			scroll-behavior: smooth;
+		}
+		nav
+		{
+			height: 100px;
+			background: white;
+			 position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 100;
+		}
+		nav h1
+		{
+			font-size: 20px;
+			top: 38px;
+			left: 12%;
+			color: rgba(196, 32, 32, 1);
+			position: absolute;
+		}
+		nav ul
+		{
+			float: right;
+			margin-right: 140px;
+		}
+		nav ul li
+		{
+			display: inline-block;
+			line-height: 20px;
+			margin: 15px 10px 20px ;
+			border: 1px solid none ;
+			font-weight: bold;
+		}
+		nav ul li a
+		{
+			color: black;
+			position: relative;
+			font-size: 15px;
+			padding: 5px;
+			text-decoration: none;
+		}
+		nav ul li a:before
+		{
+			position: absolute;
+			content: '';
+			left: 0;
+			bottom: 0;
+			height: 3px;
+			width: 100%;
+			background: rgba(196, 32, 32, 1);
+			transform: scaleX(0);
+			transform-origin: right;
+			transition: transform 1s linear;
+		}
+		nav ul li a:hover:before
+		{
+			transform: scaleX(1);
+			transform-origin: left;
+
+		}
+		label #btn,
+		label #cancel
+		{
+			color: black;
+			font-size: 25px;
+			right: 0;
+			line-height: 60px;
+			margin-right: 40px;
+			cursor: pointer;
+			display: none;
+			
+		}
+		#check
+		{
+			display: none;
+		}
+		.carouselcontainer
+		{
+			height: 700px;
+			width: 100%;
+			overflow: hidden;
+			
+		}
+		.carousel-inner img
+		{
+			width: 100%;
+
+		}
+		.saaraglobal
+		{
+			height: 1000px;
+			text-align: center;
+			border: 1px solid none;
+
+		}
+		.saaraglobal h3
+		{
+			font-size: 17px;
+			letter-spacing: 2px;
+			font-weight: 500;
+		}
+		.saaraglobal h2
+		{
+			font-size: 45px;
+			font-weight: 200;
+
+		}
+		.saaraglobal hr
+		{
+			height: 3.5px;
+			width: 7%;
+			margin-right: auto;
+			margin-left: auto;
+			background: black;
+			border: 0 none;
+		}
+
+		.img
+		{
+			height: 450px;
+			background: url(s4.png);
+			background-repeat: no-repeat;
+			object-fit: cover;
+			background-position: center;
+
+		}
+		.letter span
+		{
+			font-size: 19px;
+			text-align: center;
+			font-weight: 400;
+			color: gray;
+
+		}
+		.transparant-title
+		{
+			height: 400px;
+			width: 100%;
+		}
+		.about-content , .about-section2 {
+		    position: relative;
+		    width: 100%;
+		    height: 350px;
+		    background-image: url('p5.jpg');
+		    background-size: cover;
+		    object-fit: cover;
+		    background-position: center;
+		    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    color: white;
+		    text-align: center;
+		}
+		.about-section:hover
+		{
+			transform: skew(40deg);
+			transition: all 1s linear;
+		}
+		.about-section2:hover
+		{
+			transform: skew(40deg);
+			transition: all 1s linear;
+		}
+
+		.about-section h1
+		 {
+		    font-size: 6em;
+		    letter-spacing: 5px;
+		    font-weight: 400;
+        }
+        .about-section2 h1
+		 {
+		    font-size: 6em;
+		    letter-spacing: 5px;
+		    font-weight: 400;
+        }
+		.container
+		{
+			height:vh;
+		}
+		.ABOUT-US h1
+		{
+			font-size: 35px;
+			font-weight: 200;
+			color: black;
+
+		}
+		.ABOUT-US h6
+		{
+			font-size: 14px;
+			letter-spacing: 1.4px;
+			font-weight
+			color: black;
+			line-height: 20px;
+
+		}
+		.ABOUT-US .harizondal
+		{
+			margin-left: 0;
+
+		}
+		.container p
+		{
+			line-height: 35px;
+			font-size: 19px;
+			font-weight: 400;
+			color: gray;
+		}
+		.container-fluid h4
+		{
+			font-size: 35px;
+			font-weight: 200;
+
+		}
+		.grayright
+		{
+			height: 500px;
+			border: 1px solid none;
+			background: rgba(0, 0, 0, 0.08);
+		}
+		.grayimg img
+		{
+			height: auto;
+			width: 50%;
+			border: 1px solid none;
+			float: left;
+			
+		}
+		.grayright div
+		{
+			
+			height: auto;
+			width: 50%;
+			padding: 20px;
+			float: right;
+		}
+		.grayright h4
+		{
+			font-weight: 200;
+			font-size: 30px;
+		}
+		.grayright p
+		{
+			line-height: 30px;
+		}
+		.redleft
+		{
+			height: 500px;
+			border: 1px solid none;
+			background: rgba(251, 69, 69, 0.77);
+			color: white;
+		}
+
+		.redleft div
+		{
+			
+			height: auto;
+			width: 50%;
+			padding: 20px;
+			left: 0;
+			position: absolute;
+			text-align: right;
+			display: inline-block;
+			
+		}
+		.redleft h4
+		{
+			font-weight: 200;
+			font-size: 30px;
+		}
+		.redleft p
+		{
+			line-height: 30px;
+			font-size: 16px;
+		}
+		.redimg img
+		{
+			height: auto;
+			width: 50%;
+			border: 1px solid none;
+			float: right;
+			
+		}
+		.brownright
+		{
+			height: 500px;
+			border: 1px solid ;
+			background: rgba(22, 14, 22, 0.88);
+			color: white;
+		}
+		.brownimg img
+		{
+			height: auto;
+			width: 50%;
+			border: 1px solid none;
+			left: 0;
+			position: absolute;
+			
+		}
+		.brownright div
+		{
+			
+			height: auto;
+			width: 50%;
+			padding: 20px;
+			float: right;
+		}
+		.brownright h4
+		{
+			font-weight: 200;
+			font-size: 30px;
+		}
+		.brownright p
+		{
+			line-height: 30px;
+		}
+		.container-fluid
+		{
+			height: vh;
+			width: 100%;
+			border: 1px solid none;
+		}
+		.h
+		{
+			height: 3px;
+			width: 7%;
+			border: 0 none;
+			margin-right: auto;
+			margin-left: auto;
+			background: black;
+
+		}
+		.container-fluid h1
+		{
+			text-align: center;
+			font-weight: 200;
+		}
+		.container-fluid p
+		{
+			text-align: center;
+			font-size: 19px;
+			font-weight: 400;
+			color: gray;
+			line-height: 35px;
+		}
+		.KAPOK-KITCHEN
+		{
+			height: vh;
+			border: 1px solid none;
+			margin-top: 50px;
+		}
+		
+		.KAPOK-KITCHEN img
+		{
+			
+			height: 350px;
+			width: auto;
+		}
+		.KAPOK img
+		{
+			background: red;
+		}
+		.KAPOK img:hover
+		{
+			border: 5px solid darkred;
+			transition: 1s;
+		}
+		.KAPOK img:hover
+		{
+			transform: scale(1.05);
+			transition:transform 1s linear;
+		}
+
+		.KAPOK-KITCHEN .KAPOK
+		{
+			
+			height: 580px;
+			padding: 20px 20px 20px 25px;
+			border: 1px solid gray;
+			border-radius: 5px;
+
+		}
+		.text
+		{
+			color: red;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.text hr
+		{
+			height: 3px;
+			width: 10%;
+			border: 0 none;
+			margin-right: auto;
+			margin-left: auto;
+			background: black;
+		}
+		.KAPOK p
+		{
+			font-size: 16px;
+			color: black;
+			font-weight: bold;
+			line-height: 20px;
+		}
+		.all
+		{
+			border: 1px solid none;
+			padding: 10px 100px 10px 100px;
+			display: inline-block;
+
+		}
+		.allpic img
+		{
+			height: vh;
+			width:260px;
+			border: 1px solid none;	
+			object-fit: cover;
+		}
+		.allpic img:hover
+		{
+			transform: scale(1.1);
+			transition:transform 1s linear;
+		}
+		.footer div
+		{
+			text-align: center;
+		}
+		.footer t
+		{
+			font-size: 18px;
+			font-weight: 400;
+			color: black;
+		}
+		.footer h1
+		{
+			font-weight: 200;
+		}
+
+		.footer hr
+		{
+			height: 3px;
+			width: 8%;
+			border: 0 none;
+			margin-right: auto;
+			margin-left: auto;
+			background: black;
+
+		}
+		.footer .i
+		{
+			height: 300px;
+			border: 1px solid none;
+			
+		}
+		.footer i
+		{
+			
+			font-size: 60px;
+			padding: 30px;
+		}
+		.po
+		{
+			
+			letter-spacing: 1px;
+			font-size: 19px;
+			font-weight: 400;
+			color: gray;
+
+		}
+		.footer span
+		{
+			color: rgba(169, 12, 12, 0.8);
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.footer .button
+		{
+			font-size: 12px;
+			color: white;
+			padding: 12px;
+			border-radius: 20px;
+			background: rgba(169, 12, 12, 0.8);
+		}
+		.lastfooter h1
+		{
+			font-weight: 200;
+		}
+		.lastfooter hr
+		{
+			height: 3px;
+			width: 10%;
+			border: 0 none;
+			margin-right: auto;
+			margin-left: auto;
+			background: black;
+		}
+		.last
+		{
+			background: rgba(0, 0, 0, 0.18);
+			padding: 50px;
+		}
+		.padding
+		{
+			padding: 80px 0 0 0 ;
+			border: 1px solid none;
+		}
+
+		iframe
+		{
+			height: 300px;
+			width: vh;
+			
+		}
+		
+		.lastfooter2 p
+		{
+			font-size: 18px;
+			color: gray;
+			font-weight:500;
+			height: 70px;
+			padding: 20px;
+			text-align: center;
+
+		}
+		.target 
+		{
+			height: 60px;
+			width: 60px;
+			border-radius: 60px;
+			background: gray;
+			border: 1px solid none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			float: right;
+			margin-top: -80px;
+			 top: 0;
+            left: 0;
+            z-index: 100;
+
+
+		}
+		.target:hover
+		{
+			background: rgba(0, 0, 0, 0.6);
+		}
+		.target i
+		{
+			font-size: 30px;
+			color:white;
+
+		}
+
+
+		
+
+
+		@media (max-width:1500px)
+        {
+			nav h1
+			{
+				left: 6%;
+				position: absolute;
+			}
+			nav ul
+			{
+				margin-right: 50px;
+			}
+			.brownimg img
+			{
+				float: left;
+			}
+			 iframe
+		{
+			width: 100%;
+		}	
+
+			
+        }
+		@media (max-width:1330px)
+		{
+			nav h1
+			{
+				left: 2%;
+				position: absolute;
+			}
+			nav ul
+			{
+				margin-right: 50px;
+			}
+			.saaraglobal
+			{
+				height: 100%;
+				width: 100%;
+			}
+			
+			.redimg img
+			{
+				right: 0;
+				position: absolute;
+			}
+			.redleft p
+			{
+				line-height: 22px;
+			}
+			.KAPOK img
+			{
+				width: 100%;
+			}
+			.all
+		    {
+			border: 1px solid none;
+			padding: 10px 10px 10px 10px;
+
+		    }
+		   .OUR
+			{
+				margin-top: 50px;
+			}
+			
+	}
+	
+		@media (max-width:1220px)
+		{
+			label #btn
+			{
+				display: block;
+			}
+			nav ul li a
+			{
+				font-size: 20px;
+			}
+			ul
+			{
+
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				background: white;
+				top: 100px;
+				left:-100%;
+				text-align: center;
+				transition: all .8s;
+			}
+			nav ul li 
+			{
+				display: block;
+				margin: 30px 0;
+				line-height: 30px;
+			}
+			.carouselcontainer
+		   {
+			
+			z-index: -1;
+			position: absolute;
+		   }
+			label #btn,
+			label #cancel
+			{
+				position: absolute;
+				z-index: 1;
+			}
+			#check:checked ~ ul
+			{
+				left:0;
+			}
+			#check:checked ~ label #btn
+			{
+				display: none;
+			}
+			#check:checked ~ label #cancel
+			{
+				display: block;
+			}
+			.saaraglobal
+			{
+				height: 100%;
+				width: 100%;
+			}
+			.harizondal
+			{
+				display: none;
+			}
+			.saaraglobal
+			{
+				margin-top: 500px;
+			}
+			.ABOUT-US h2
+			{
+				font-size: 20px;
+				font-weight: 200;
+			}
+			.ABOUT-US h5
+			{
+				font-size: 16px;
+				font-weight: 200;
+			}
+			.container-fluid
+			{
+				height: vh;
+				width: 100%;
+				border: 1px solid none;
+			}
+			.KAPOK img
+			{
+				width: 100%;
+			}
+			.KAPOK-KITCHEN
+			{
+				margin-top: 100px;
+			}
+			.allpic img
+		{
+			height: vh;
+			width:220px;
+			border: 1px solid none;
+			padding: 5ppx;
+			object-fit: cover;
+		}
+			.all
+		    {
+			padding: 10px 0px 10px 0px;
+
+		   }
+		   iframe
+		{
+			width: 450px;
+		}
+		.OUR
+			{
+				margin-top: 50px;
+			}
+				
+	}	
+
+
+
+	
+	@media (max-width:1000px)
+	{
+		.saaraglobal
+		{
+			margin-top: 400px;
+
+		}
+		ul
+			{
+
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				background: white;
+				top: 100px;
+				left:-100%;
+				text-align: center;
+				transition: all .8s;
+			}
+			nav ul li 
+			{
+				display: block;
+				margin: 30px 0;
+				line-height: 30px;
+			}
+			.grayimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:330px;
+				position: absolute;
+			}
+			.grayright
+			{
+				background: none;
+			}
+			.grayright div
+			{
+				width: 100%;
+				height: vh;
+				background: rgba(0, 0, 0, 0.08);
+			}
+			.redimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:346px;
+				position: absolute;
+				
+			}
+			.redleft
+			{
+				background: none;
+			}
+			.redleft div
+			{
+				width: 100%;
+				height: vh;
+				margin: 0;
+				background: rgba(251, 69, 69, 0.77);
+			}
+			.redleft 
+			{
+				margin-top: 438px;
+			}
+			.brownright
+			{
+				background: none;
+			}
+			.brownright div
+			{
+				width: 100%;
+				height: vh;
+				margin: 0;
+				background: brown;
+			}
+			.brownimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:330px;
+				position: absolute;
+				
+			}
+			.brownright 
+			{
+				margin-top: 450px;
+			}
+			.KAPOK img
+			{
+				width: 100%;
+			}
+			.allpic img
+			{
+				height: vh;
+				width:160px;
+				
+			}
+		.all
+		    {
+			border: 1px solid none;
+			padding: 10px;
+		   }	
+		   
+			.about-section2
+			{
+				margin-top: 450px;
+			}
+			
+			
+	}	
+	@media (max-width:800px)
+	{
+		.saaraglobal
+		{
+			margin-top: 300px;
+
+		}
+		ul
+			{
+
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				background: white;
+				top: 100px;
+				left:-100%;
+				text-align: center;
+				transition: all .8s;
+			}
+			nav ul li 
+			{
+				display: block;
+				margin: 30px 0;
+				line-height: 30px;
+			}
+			.grayimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:340px;
+				position: absolute;
+			}
+			.grayright div
+			{
+				width: 100%;
+				height: vh;
+				display: inline-block;
+
+			}
+			.red
+			{
+				margin-top:-94px;
+			}
+			.redimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:420px;
+				position: absolute;
+			}
+			.redleft div
+			{
+				width: 100%;
+				height: vh;
+				margin-top: 0px;
+				display: inline-block;
+
+			}
+			.brown
+			{
+				margin-top: -25px;
+			}
+			.brownimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:330px;
+				position: absolute;
+			}
+			.brownright div
+			{
+				width: 100%;
+				height: vh;
+				margin-top:00px;
+				display: inline-block;
+
+			}
+			.redleft p
+			{
+				line-height: 30px;
+				
+			}
+			.KAPOK img
+			{
+				width: 100%;
+			}	
+			.KAPOK-KITCHEN .col-sm-12
+			{
+				width: 100%;
+			}
+			.allpic img
+		   {
+			height: vh;
+			width:100%;
+			
+			}
+			.footer div
+			{
+				width: 100%;
+			}
+			iframe
+			{
+				width: 100%;
+			}
+			
+			.about-section2
+			{
+				margin-top: 300px;
+			}
+			.target 
+			{
+				margin-top: -150px;
+			}
+		
+			
+	}	
+	@media (max-width:600px)
+	{
+		.saaraglobal
+		{
+			margin-top: 300px;
+
+		}
+		.about p
+		{
+			font-size: 22px;
+			width: 100%;
+			
+		}
+		ul
+			{
+
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				background: white;
+				top: 100px;
+				left:-100%;
+				text-align: center;
+				transition: all .8s;
+			}
+			nav ul li 
+			{
+				display: block;
+				margin: 30px 0;
+				line-height: 30px;
+			}
+			.about img
+			{
+				width: auto;
+				margin-right: 0;
+				float: none;
+			}
+			.OUR
+			{
+				margin-top: 50px;
+			}
+
+			.grayimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:450px;
+				position: absolute;
+			}
+			.grayright  div
+			{
+				width: 100%;
+				height: vh;
+				display: inline-block;
+
+			}
+			.red
+			{
+				margin-top: -30px;
+			}
+			.redimg img
+			{
+				float: none;
+				width: 100%;
+				margin-top:630px;
+				position: absolute;
+			}
+			.redleft  div
+			{
+				width: 100%;
+				height: vh;
+				margin-top: px;
+				display: inline-block;
+
+			}
+			.brown
+			{
+				margin-top: 590px;
+			}
+			.brownimg img
+			{
+				margin-top: 450px;
+			}
+			.allpic img
+			{
+				width: 100%;
+				margin-top: 10px;
+				object-fit: cover;
+			}
+			.lastfooter2 p
+		{
+			height:vh ;
+			font-size: 25px;
+			color: gray;
+			font-weight:500;
+
+		}
+		iframe
+		{
+			width: 100%;
+		}
+		.about-section2
+		{
+			margin-top: 450px;
+		}
+		.target 
+		{
+			margin-top: -130px;
+		}
+			
+			
+			
+	}	
+		
+			
+			
+			
