@@ -310,8 +310,7 @@
 			height: auto;
 			width: 50%;
 			border: 1px solid none;
-			left: 0;
-			position: absolute;
+			float: left;
 			
 		}
 		.brownright div
@@ -828,7 +827,7 @@
 				width: 100%;
 				height: vh;
 				margin: 0;
-				background: brown;
+				background: rgba(22, 14, 22, 0.88);
 			}
 			.brownimg img
 			{
@@ -894,25 +893,26 @@
 			{
 				float: none;
 				width: 100%;
-				margin-top:340px;
-				position: absolute;
+				margin-top:400px;
+				
 			}
 			.grayright div
 			{
 				width: 100%;
-				height: vh;
+				height: 100%;
+				font-size: 20px;
 				display: inline-block;
 
 			}
 			.red
 			{
-				margin-top:-94px;
+				margin-top:-35px;
 			}
 			.redimg img
 			{
 				float: none;
 				width: 100%;
-				margin-top:420px;
+				margin-top:450px;
 				position: absolute;
 			}
 			.redleft div
@@ -923,21 +923,26 @@
 				display: inline-block;
 
 			}
+			.red p
+			{
+				font-size: 20px;
+			}
 			.brown
 			{
-				margin-top: -25px;
+				margin-top: 40px;
 			}
 			.brownimg img
 			{
 				float: none;
 				width: 100%;
-				margin-top:330px;
-				position: absolute;
+				margin-top:450px;
+				
 			}
 			.brownright div
 			{
 				width: 100%;
-				height: vh;
+				height: 100%;
+				font-size: 20px;
 				margin-top:00px;
 				display: inline-block;
 
@@ -972,7 +977,7 @@
 			
 			.about-section2
 			{
-				margin-top: 300px;
+				margin-top: 500px;
 			}
 			.target 
 			{
@@ -1027,42 +1032,55 @@
 			{
 				float: none;
 				width: 100%;
-				margin-top:450px;
-				position: absolute;
+				margin-top:500px;
 			}
 			.grayright  div
 			{
 				width: 100%;
-				height: vh;
+				height: 100%;
+				font-size: 20px;
 				display: inline-block;
 
 			}
 			.red
 			{
-				margin-top: -30px;
+				margin-top: 450px;
+				border: 1px solid;
+			}
+			.red p
+			{
+				font-size: 20px;
 			}
 			.redimg img
 			{
 				float: none;
 				width: 100%;
-				margin-top:630px;
-				position: absolute;
+				margin-top:530px;
+				
 			}
-			.redleft  div
+			.redleft div
 			{
 				width: 100%;
 				height: vh;
-				margin-top: px;
+				margin-top: -430px;
+				font-size: 20px;
 				display: inline-block;
 
 			}
 			.brown
 			{
-				margin-top: 590px;
+				
+				border: 1px solid;
+			}
+			.brownright div
+			{
+				height: 100%;
+				margin-top: -450px;
+				font-size: 20px;
 			}
 			.brownimg img
 			{
-				margin-top: 450px;
+				margin-top: 500px;
 			}
 			.allpic img
 			{
@@ -1084,7 +1102,7 @@
 		}
 		.about-section2
 		{
-			margin-top: 450px;
+			margin-top: 0px;
 		}
 		.target 
 		{
